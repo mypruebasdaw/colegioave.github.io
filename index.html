@@ -9,22 +9,24 @@
 </head>
 <body>
     <header>
-        <img src="./icons/bird-claw-svgrepo-com.svg" alt="logo del instituto">
+        <img src="icons/bird-claw-svgrepo-com.svg" alt="logo del instituto">
         <h1>COLEGIO AVE</h1>
     </header>
     <main>
         <h2>Inicio Sessión</h2>
-        <form action="./inicio.html" method="get">
-            <label >USUARIO</label><input type="text" name="user" placeholder="Introduce tu usuario...">
-            <label >CONTRASEÑA</label><input type="password" name="pass" placeholder="Introduce tu contraseña...">
+        <form action="./inicio.html" method="post">
+            <label for="user">USUARIO<input type="text" name="user" placeholder="Introduce tu usuario..."></label>
+            <label for="pass">CONTRASEÑA<input type="password" name="pass" placeholder="Introduce tu contraseña..."></label>
             <input type="submit" name="enviar" value="Enviar" id="botton">
         </form>
     </main>
     <footer>
-        <p>Telefono: 911000000</p>
-        <address><a href="mailto:ave@educa.com">Email: ave@educa.com</a> </address>
-        <p>Dirección: Calle Aves Nº23 Ciudad</p>
-        <p>Provincia 20100</p>
+        <address>
+            <p>Telefono: 911000000</p>
+            <p><a href="mailto:ave@educa.com">Email: ave@educa.com</a> </address>
+            <p>Dirección: Calle Aves Nº23 Ciudad</p>
+            <p>Provincia 20100</p>
+        </address>
         <p id="validador">
             <a href="http://jigsaw.w3.org/css-validator/check/referer">
                 <img style="border:0;width:88px;height:31px"
